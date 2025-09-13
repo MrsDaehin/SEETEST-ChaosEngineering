@@ -214,7 +214,8 @@ docker version
 git version
 minikube version  or kind version
 helm version
-k9s version
+k9s version or kdash version
+k6 version
 curl --version
 ```
 
