@@ -1,7 +1,7 @@
-# Workshop with Kubernetes
+# Workshop with Chaos Mesh
 
 Welcome to this workshop.
-The workshop is associated with a [slide deck](https://docs.google.com/presentation/d/1ahLGbzdvkW14ABte-VKvMXuZ95SnpA09ra6t5Xjode0/edit?usp=sharing).
+The workshop is associated with a [slide deck](https://docs.google.com/presentation/d/1wzkwpPH4OxQJW8Bz6JoF8bHlodwcKR6gAhZjUsGfN1U/edit?usp=sharing).
 Material used in the workshop is based on different examples from github, articles and kubernetes.io
 
 ## Prerequisites
@@ -145,6 +145,40 @@ brew install k9s
 ```
 choco install k9s
 ```
+### kdash
+
+A simple terminal dashboard for Kubernetes built with Rust [Kdash](https://kdash.cli.rs/) providing a layer on top of the standard `kubectl` cli.
+
+**brew**
+
+```
+brew install kdash
+```
+
+**choco**
+```
+choco install kdash
+```
+
+### k6 
+
+k6 has packages for Linux, Mac, and Windows. Alternatively, you can use a Docker container or a standalone binary.
+
+You can also use the k6 Studio desktop application to help you generate k6 scripts from a browser recording. Refer to k6 Studio for more details.
+
+https://grafana.com/docs/k6/latest/set-up/install-k6/
+
+**brew**
+
+```
+brew install k6
+```
+
+**choco**
+```
+choco install k6
+```
+
 
 ### Helm
 
@@ -178,7 +212,7 @@ Make sure that the docker destop is running, if you are on windows you may see a
 ```console
 docker version
 git version
-minikube version
+minikube version  or kind version
 helm version
 k9s version
 curl --version
@@ -190,21 +224,10 @@ Make sure you have started the installed `docker desktop`.
 
 ## Please remember the purpose of the workshop
 
-Please remember this is created for you to learn basic suff about kubernetes and to have an environment set up on you local workstation or laptop.
+Please remember this is created for you to learn basic suff about Chaos Engineering and to have an environment set up on you local workstation or laptop.
 When you work through the workshops, by all means copy and paste commands, to avoid being stuck in misspelled commands.
 Please do reflect over each thing you do and try to deduct, what you did and and what was the result.
 
-## Excercises
-
-- Lets start with what you can do in this room today
-  - Let us get you signed up for Cloud Native Aalborg (https://community.cncf.io/aalborg/ and `join`)
-  - Let us make sure you know where you get a coffe and a chat about Cloud Native and Kubernetes
-  - Experiment with it yourself on your laptop ifo Kubernetes (there are a number of distributions and also some for you laptop)
-    - [kubernetes](./simple-kubernetes) - start with this one
-    - [ingress](./simple-kubernetes-with-ingress) - then go on to this one
-    - [observability](./observability)
-    - [kubedoom](./kubedoom)
-    - or one of the other workshops
 
 ## If you are using Windows on your laptop
 
