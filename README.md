@@ -1,2 +1,2 @@
 # ChaosMeshWorkshop
-Workshop on ChaosMesh for ExpoQA
+Workshop on ChaosMesh for Seetest
